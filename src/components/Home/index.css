@@ -1,0 +1,84 @@
+* {
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-color: #1f1f2f;
+  padding: 25px;
+}
+
+.lists-item {
+  border-style: solid;
+  border-color: #94a3b8;
+  border-radius: 10px;
+  list-style: none;
+  background-color: #161624;
+  padding-left: 0px;
+  border-width: 1px;
+  margin-left: 50px;
+  margin-right: 50px;
+  height: 49vh;
+  overflow: auto;
+}
+
+.countries-head {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.name-text {
+  color: #ffffff;
+}
+
+button {
+  border: none;
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 70px;
+  height: 28px;
+}
+
+.visted-text {
+  color: #94a3b8;
+  padding-right: 13px;
+}
+
+.thumnail-image {
+  width: 300px;
+  height: 150px;
+}
+
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list-item-visited {
+  background-color: #161624;
+  width: 300px;
+  margin: 25px;
+}
+
+.para-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.no-visited {
+  color: white;
+}
